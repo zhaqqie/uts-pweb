@@ -1,0 +1,39 @@
+/* styles.css */
+
+/* Background color */
+body {
+    background-color: #fafcfb; /* Warna latar belakang */
+}
+
+/* Navbar color */
+.navbar {
+    background-color: #c9e339; /* Warna navbar */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff; /* Warna teks pada navbar */
+}
+
+/* Jumbotron color */
+.jumbotron {
+    background-color: #007bff; /* Warna latar belakang jumbotron */
+    color: #fff; /* Warna teks pada jumbotron */
+}
+
+/* Teks warna putih */
+.text-white {
+    color: #fff;
+}
+
+.img-margin {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .img-margin {
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+}
+
